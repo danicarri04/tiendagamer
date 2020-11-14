@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA GAMER D&A</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+        }
+         ul {
+            list-style-type: none;
+            background-color: #AAAAAA;
+            overflow: hidden;
+        }
+        li {
+            display: inline-block;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 1em 1.14em;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover, .dropbtn:hover {
+            background-color: #585858;
+        }
+        h2 {
+            font-family: Segoe UI;
+            font-size: 1.86em;
+            text-align: center;
+            padding: .86em;
+        }
+        .titleb {
+            /*1em=14px*/
+            padding: 0.9em;
+            text-align: center;
+            background-color: #000000;
+            color: #FFFFFF;
+            font-size: 0.9em;
+        }
+        .title1 {
+            /*1em=14px*/
+            padding: 3em;
+            text-align: center;
+            background-color: #F1F1F1;
+            color: #222222;
+        }
+        .title2 {
+            padding: 2.14em;
+            text-align: center;
+            background-color: #2E2E2E;
+            color: white;
+        }
+        .nav{
+            text-align: center;
+        }
+       
+        .imagen img {
+            width: 14.2em;
+            height: 14.6em;
+        }
+    
+        .dropdown:hover .dropcontent {
+            display: block;
+        }
+        .titulob1 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: left ;
+            color: red;
+        }
+        .columna {
+            position: relative;
+            width: 33.3%;
+            padding: 1.43em;
+            border: 1px rgba(254,162,425);
+            float: left;
+        }
+        .imagenn1 img {
+            width: 100%;
+        }
+        .imagenn1 img:hover {
+            background-image: url(images/consolas3.jpg);
+        }
+        .fila {
+            width: 95%;
+            margin: 0 auto;
+        }
+        .texto {
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.3em;
+            text-align: left;
+            padding-left: 1em;
+        }
+        .background-1 {
+            background-image: url(images/consolas1.jpeg);
+            min-height: 100%; 
+        }
+         .background-2 {
+            background-image: url(consolas5.jpg);
+            min-height: 100%; 
+        }
+        .background-1, .background-2 {
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+             margin: auto;
+             padding: 0.3em;
+             background-color: white
+        }
+        ul, li {
+             padding: 0;
+             margin: 0;
+            list-style: none;
+        }
+        ul.slider{
+            position: relative;
+            width: 100%;
+            height: 50em;
+        }
+        ul.slider li {
+            position: absolute;
+            left: 0em;
+            top: 0em;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            transition: opacity .5s;
+            background:#fff;
+        }
+        ul.slider li img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        ul.slider li:first-child {
+            opacity: 1; 
+        }
+        ul.slider li:target {
+            opacity: 1; 
+        }
+        .menusl {
+            text-align: center;
+            margin: .7em;
+        }
+        .menslu li {
+            display: inline-block;
+            text-align: center;
+        }
+        .menusl li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            font-size: 1em;
+            border-radius: 10000%;
+        }
+         .click {
+            color: white;
+        }
+        .logo {
+            float: center;
+        }
+        h2.lol {
+           animation-duration: 5s;
+           animation-name: slidein;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+
+        }
+        @keyframes slidein {
+        from {
+              margin-left: 100%;
+              width: 300%
+             }
+
+        to {
+             margin-left: 0%;
+             width: 100%;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="titleb">
+        <p>Envío GRATIS  por compras mayores de $1500000 y 33% de descuento en productos seleccionados </p>
+        <li><a href="tela.html" class="click">click para más información</a></li>
+    </div> 
+    <div class="title1">
+     <div><img src="images/logoinfo.jpeg"></div>
+    </div> 
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="1.html">PlayStation©</a></li>
+            <li><a href="2.html">Xbox©</a></li>
+            <li><a href="3.html">Nintendo©</a></li>
+            <li><a href="4.html">Ediciones especiales</a></li>
+            <li><a href="5.html">Regístrate</a></li>
+             <li><a href="6.html">Envíos</a></li>
+        </ul>
+    </div>
+    <div class="background-1">
+    </div> 
+  
+    <h2 class="lol">NUESTROS PRODUCTOS</h2>
+    <div class="fila">
+        <div class="columna">
+            <a href="1.html" class="imagen"><img src="images/play.png"></a>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation©</p></div>
+            </div>
+            </div>
+         <div class="columna">
+            <a href="2.html" class="imagen"><img src="images/xbox.png"></a>
+            <div class="overplay">
+                <div class="texto"><p>Xbox©</p></div>
+            </div>
+            </div>
+         <div class="columna">
+            <a href="3.html"class="imagen"><img src="images/nintendo.png"></a>
+            <div class="overplay">
+                <div class="texto"><p>Nintendo©</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+  
+       <ul class="slider">
+            <li id="slide1">
+              <img src="images/consolas2.png"/>
+            </li>
+            <li id="slide2">
+              <img src="images/consolas3.jpg"/>
+            </li>
+            <li id="slide3">
+              <img src="images/consolas4.jpg"/>
+            </li>
+        </ul>
+        <ul class="menusl">
+            <li>
+               <a href="#slide1">1</a>
+            </li>
+            <li>
+               <a href="#slide2">2</a>
+            </li>
+            <li>
+               <a href="#slide3">3</a>
+            </li>
+        </ul>
+    </div> 
+        <div class="background-2"></div> 
+           <div class="titleb">
+        <p>Envíos Internacionales</p>
+    </div>  
+<div class="title2">
+         <div class="logo"><img src="images/logoinfo2.jpeg"></div>
+    </div>
+     <div class="titleb">
+        <p>Contáctanos</p>
+        <p>6413@liceocervantes.edu.co - 6447@liceocervantes.edu.co</p>
+    </div>  
+</body>
+</html>

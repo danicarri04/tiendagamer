@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation©</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+        }
+         ul li a, .dropul {
+            list-style-type: none;
+            background-color: #AAAAAA;
+            overflow: hidden;
+        }
+        li, .dropdown {
+            display: inline-block;
+        }
+        li a, .dropdown {
+            display: inline-block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 1em 1.14em;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover {
+            background-color: #585858;
+       }
+         li a, .dropbtn {
+            display: inline-block;
+            color: black;
+            background-color: transparent;
+            padding: 1em 1.6em ;
+            text-decoration: none;
+        }
+          a:hover, .dropbtn:hover {
+            background-color: #C0C0C0;
+       }
+        h2 {
+            font-family: serif;
+            font-size: 1.86em;
+            text-align: left;
+            padding: .86em;
+        }
+        .titleb {
+            /*1em=14px*/
+            padding: 0.9em;
+            text-align: center;
+            background-color: #000000;
+            color: #FFFFFF;
+            font-size: 0.9em;
+        }
+        .title1 {
+            /*1em=14px*/
+            padding: 3em;
+            text-align: center;
+            background-color: #F1F1F1;
+            color: #222222;
+        }
+        .title2 {
+            padding: 2.14em;
+            text-align: center;
+            background-color: #2E2E2E;
+            color: white;
+        }
+        .nav{
+            text-align: center;
+        }
+       
+        .imagen img {
+            width: 10em;
+            height: 10em;
+        }
+        .imagen:hover {
+            transform: scale(1.3);
+        }
+        .dropdown:hover .dropcontent {
+            display: block;
+        }
+        .titulob1 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: left ;
+            color: red;
+        }
+        .columna {
+            position: relative;
+            width: 33.3%;
+            padding: 1.43em;
+            border: 1px rgba(254,162,425);
+            float: left;
+        }
+        .imagenn1 img {
+            width: 100%;
+        }
+        .imagenn1 img:hover {
+            background-image: url(images/consolas5.jpg);
+        }
+        .fila {
+            width: 80%;
+            margin: 0 ;
+        }
+        .fila2 {
+            text-align: right;
+            width: 20%;
+            margin: 0;
+            float: right;
+        }
+        .texto {
+            color: #000000;
+            font-size: 1em;
+            text-align: left;
+            padding-top: 0.9em;
+            padding-left: 0.4em;
+        }
+        .background-1 {
+            background-image: url(images/p..jpg);
+            min-height: 3%; 
+        }
+         .background-2 {
+            background-image: url(images/nik1.jpg);
+            min-height: 100%; 
+        }
+      .click {
+            color: white;
+        }
+      .logo {
+            float: center;
+        }
+        .tac {
+            color: red;
+        }
+        h2.lol {
+           animation-duration: 5s;
+           animation-name: slidein;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+        }
+        @keyframes slidein {
+        from {
+              margin-left: 100%;
+              width: 300%
+             }
+
+        to {
+             margin-left: 0%;
+             width: 100%;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="titleb">
+        <p>Envío GRATIS por compras mayores de $1500000 y 33% de descuento en productos seleccionados </p>
+        <li><a href="tela.html" class="click">click para más información</a></li>
+    </div> 
+    <div class="title1">
+        <div><img src="images/logoinfo.jpeg"></div>
+    </div> 
+    <div class="nav">
+        <ul class="dropul">
+            <li><a href="index.html" class="dropdown">Home</a></li>
+            <li><a href="1.html" class="dropdown">PlayStation©</a></li>
+            <li><a href="2.html" class="dropdown">Xbox©</a></li>
+            <li><a href="3.html" class="dropdown">Nintendo©</a></li>
+            <li><a href="4.html" class="dropdown">Ediciones especiales</a></li>
+            <li><a href="5.html" class="dropdown">Regístrate</a></li>
+            <li><a href="6.html" class="dropdown">Envíos</a></li>
+        </ul>
+    </div>
+    <div class="background-1">
+    </div> 
+    <h2 class="lol">PlayStation©</h2>
+    <hr width="80%" align="center">
+    <div class="fila">
+        <div class="columna">
+            <div class="imagen"><img src="images/play1.jpg"></div>
+            <div class="overplay">
+                <div class="texto"><p>PSVita</p></div>
+                <p class="mor">$419900</p>
+            </div>
+            </div>
+         <div class="columna">
+            <div class="imagen"><img src="images/play2.jpg"></div>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation 1</p></div>
+                <p class="mor">$559900</p>
+            </div>
+            </div>
+         <div class="columna">
+            <div class="imagen"><img src="images/play3.jpg"></div>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation 2</p></div>
+                 <p class="mor">$599000</p>
+            </div>
+        </div>
+    </div>
+      <div class="fila2">
+        <div class="nav1">
+        <ul>
+            <li><a href="index.html" class="dropbtn">Home</a></li>
+            <li><a href="1.html" class="dropbtn">PlayStation©</a></li>
+            <li><a href="2.html" class="dropbtn">Xbox©</a></li>
+            <li><a href="3.html" class="dropbtn">Nintendo©</a></li>
+            <li><a href="4.html" class="dropbtn">Ediciones especiales</a></li>
+            <li><a href="5.html" class="dropbtn">Regístrate</a></li>
+            <li><a href="6.html" class="dropbtn">Envíos</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="fila">
+        <div class="columna">
+            <div class="imagen"><img src="images/play4.jpg"></div>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation 3</p></div>
+                <strike class="tac">$719900</strike>
+                <p class="mor">$699000</p>
+            </div>
+            </div>
+         <div class="columna">
+            <div class="imagen"><img src="images/play5.jpg"></div>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation 4</p></div>
+                 <p class="mor">$1500000</p>
+            </div>
+            </div>
+         <div class="columna">
+            <div class="imagen"><img src="images/play6.png"></div>
+            <div class="overplay">
+                <div class="texto"><p>PlayStation 5</p></div>
+                 <strike class="tac">$3000000</strike>
+                <p class="mor">$2700000</p>
+            </div>
+        </div>
+    </div>
+  
+        <div class="background-2"></div> 
+           <div class="titleb">
+        <p> Envíos Internacionales</p>
+    </div>  
+     <div class="title2">
+         <div class="logo"><img src="images/logoinfo2.jpeg"></div>
+    </div>
+<div class="titleb">
+        <p>Contáctanos</p>
+        <p>6413@liceocervantes.edu.co - 6447@liceocervantes.edu.co</p>
+    </div>  
+</body>
+</html>
